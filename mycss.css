@@ -1,0 +1,199 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+.clear {
+    clear:both;
+}
+body {
+    width:1200px;
+    margin:0 auto;
+    background-color:#f9f9f9;
+
+}
+.total {
+    
+}
+.main { 
+    margin:0 auto;
+    width: 100%;
+     
+}
+
+.bg_logo {
+    position:absolute;
+    float:left;
+    background-image: url(images/webbackgroundimg.png);
+    width: 100%;
+    height: 70px;
+    background-repeat: no-repeat;
+}
+nav {
+    float: right;
+    width:60%;
+    /*width: 641px;
+    height: 34px;*/
+    margin-top: 28px;
+}
+
+    nav a {
+        display: inline-block;
+        width: 80px;
+        height: 34px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #686971;
+        padding: 3px 7px 3px 7px;       
+        font-size: 14px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;       
+        border-right: 1px solid #ddd;
+        line-height: 34px;
+        box-shadow: 0px 2px 2px #888888;
+    }
+
+    nav a:first-child {
+        border-top-left-radius:10%;
+        -moz-border-top-left-radius:10%; /* 老的 Firefox */
+        border-bottom-left-radius:10%;
+        -moz-border-bottom-left-radius:10%; /* 老的 Firefox */
+    }
+    nav a:last-child {
+        border-right:0px;
+        border-top-right-radius:10%;
+        -moz-border-top-right-radius:10%; /* 老的 Firefox */
+        border-bottom-right-radius:10%;
+        -moz-border-bottom-right-radius:10%; /* 老的 Firefox */
+    }
+
+    nav a:hover {
+        background-color: #454548;
+    }
+.photos {
+    margin-top:1px;
+}
+.photos a img{
+        width:297px;
+        height:200px;
+        margin-right:4px;
+        border:none;
+    }
+.footer{
+    width:100%;
+    height:80%;
+    background-color:#B9B7B7;
+    margin-top:20px;
+}
+    .footer p{
+        height:20px;
+        text-align:center;
+        line-height:0px;
+        font-size:14px;
+        color:#fff;
+        padding-top:50px;
+    }
+    .footer a{
+        display:block;
+        text-decoration:none;
+        text-align:center;
+        line-height:0px;
+        font-size:14px;
+        color:#fff;
+        padding-bottom:50px;
+        
+    }
+.empty {
+    width:100%;
+    height:120px;
+}
+.img_title {
+    background-color:#cfcfcf;
+    width:100%;
+    height:25px;
+    border:1px solid #939393;
+    border-bottom:none; 
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    padding:8px 0 8px 0;
+    clear:both;
+}
+.img_container {
+    width:100%;
+    border:1px solid #939393;
+}
+.img-border {
+    width:180px;
+    height:130px;
+    float:left;
+    border:1px solid #ccc;
+    margin:15px 20px 15px 20px;
+    text-align:center;
+    padding-top:2px;
+    padding-bottom:22px;
+}
+.picture_size {
+    width:176px;
+    height:110px;
+}
+    .img-border p {
+        color:#808080;
+        font-size:12px;
+        line-height:1.5em; 
+
+    }
+.img_after {
+    width:176px;
+    height:110px;  
+}
+.img_before{
+    position: absolute;
+    /*display: none;*/ 
+    width: 60px;
+    height: 60px;
+    margin-top: -80px;
+    margin-left: 53px;
+}
+.img-border:hover {
+
+}
+.home_1_pictures {
+    width:100%;
+    border:none;
+}
+    .home_1_pictures img {
+        margin:-2px;
+    
+    }
+.clip_container {
+    width:386px;
+    height:180px;
+    float:left;
+    border:none;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.opacity_img {
+    position:absolute;
+    margin-left:0;
+    margin-top:0; 
+    width:386px;
+    height:180px;
+    opacity:0.4;
+    filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+       
+}
+.clip_img {
+    position:absolute;
+    margin-left:0;
+    margin-top:0; 
+    width:386px;
+    height:180px;
+    
+}
+.clip{
+     clip:rect(10px,376px,170px,10px);
+    }
+
+
